@@ -1,0 +1,15 @@
+{
+    "name": "bms/store",
+    "description": "Store Package",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bms\\Store\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/ui": "3.x-dev"
+    }
+}
