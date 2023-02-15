@@ -8,8 +8,5 @@
             "Bms\\Store\\": "src/"
         }
     },
-    "minimum-stability": "dev",
-    "require": {
-        "laravel/ui": "3.x-dev"
-    }
+    "minimum-stability": "dev"
 }
