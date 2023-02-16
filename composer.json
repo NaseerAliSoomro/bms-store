@@ -1,12 +1,19 @@
 {
-    "name": "bms/store",
-    "description": "Store Package",
+    "name": "blinkswag/store",
+    "description": "Blinkswag Store Package",
     "type": "package",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Bms\\Store\\": "src/"
+            "Blinkswag\\Store\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Blinkswag\\Store\\BlinkswagStoreServiceProvider"
+            ]
+        }
+    }
 }

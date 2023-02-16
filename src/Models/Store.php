@@ -1,10 +1,10 @@
 <?php
 
-namespace Bms\Store\Models;
+namespace Blinkswag\Store\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Store extends Model
+class BlinkswagStore extends Model
 {
     /**
      * The table associated with the model.
@@ -21,6 +21,5 @@ class Store extends Model
         'my_editing',
         'token'
     ];
-    protected $table = 'store';
-
+    protected $table = 'blinkswag_store';
 }

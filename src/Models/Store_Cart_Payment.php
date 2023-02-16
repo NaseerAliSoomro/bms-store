@@ -1,10 +1,10 @@
 <?php
 
-namespace Bms\Store\Models;
+namespace Blinkswag\Store\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Store_Cart_Payment extends Model
+class Blinkswag_Store_Cart_Payment extends Model
 {
     /**
      * The table associated with the model.
@@ -23,6 +23,6 @@ class Store_Cart_Payment extends Model
         'salesorder_id',
         'stripe_payment_json'
     ];
-    protected $table = 'store_cart_payment';
+    protected $table = 'blinkswag_store_cart_payment';
 
 }

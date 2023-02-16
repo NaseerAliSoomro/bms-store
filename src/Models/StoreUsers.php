@@ -1,14 +1,14 @@
 <?php
 
-namespace Bms\Store\Models;
+namespace Blinkswag\Store\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class StoreUsers extends Model
+class BlinkswagStoreUsers extends Model
 {
     // use HasFactory;
-    protected $table = 'store_users';
+    protected $table = 'blinkswag_store_users';
     public $timestamps = true;
 
     /**

@@ -1,10 +1,10 @@
 <?php
 
-namespace Bms\Store\Models;
+namespace Blinkswag\Store\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Store_User_ResetPassword extends Model
+class Blinkswag_Store_User_ResetPassword extends Model
 {
     /**
      * The table associated with the model.
@@ -16,6 +16,6 @@ class Store_User_ResetPassword extends Model
         'email',
         'token'
     ];
-    protected $table = 'store_user_resetpassword';
+    protected $table = 'blinkswag_store_user_resetpassword';
 
 }

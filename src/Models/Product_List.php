@@ -1,10 +1,10 @@
 <?php
 
-namespace Bms\Store\Models;
+namespace Blinkswag\Store\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Product_List extends Model
+class Blinkswag_Store_Product_List extends Model
 {
     /**
      * The table associated with the model.
@@ -12,6 +12,6 @@ class Product_List extends Model
      * @var string
      */
 
-    protected $table = 'product_list';
+    protected $table = 'blinkswag_store_product_list';
 
 }
